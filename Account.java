@@ -9,8 +9,7 @@
 		 this.balance = balance;
 	 }
 	 Account(int accountNumber){
-		 this.accountNumber = accountNumber;
-		 this.balance = 0.0;
+		 this(accountNumber,0.0);
 	 }
 	 public int getAccountNumber(){
 		 return accountNumber;
