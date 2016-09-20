@@ -6,9 +6,7 @@ public class Date{
 	private int month;
 	private int day;
 	Date(){
-		this.year = 1000;
-		this.month = 1;
-		this.day = 1;
+		this(1000,1,1);
 	}
 	Date(int year, int month, int day){
 		setDate(year,month,day);
